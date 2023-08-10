@@ -18,5 +18,6 @@
         "down":{"x":43,"y":-47},
         "left":{"x":17,"y":5},
         "right":{"x":-17,"y":3}
-    }
+    },
+    "healthColor":"#ffffff"
 }
