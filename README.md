@@ -1,5 +1,5 @@
 # TurboFunk
-It's basically Friday Night Funkin, but in rewritten in TurboWarp.
+It's basically Friday Night Funkin, but rewritten in TurboWarp.
 ### What it can do
 <ul>
   <li>Reads charts made with the Friday Night Funkin chart editor</li>
