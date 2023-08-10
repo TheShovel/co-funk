@@ -1,5 +1,5 @@
 # TurboFunk
-It's basically Friday Night Funkin, but rewritten in TurboWarp.
+It's basically Friday Night Funkin but rewritten in TurboWarp.
 ### What it can do
 <ul>
   <li>Reads charts made with the Friday Night Funkin chart editor</li>
@@ -14,7 +14,7 @@ It's basically Friday Night Funkin, but rewritten in TurboWarp.
   <li>Customizable list to display the mods </li>
 </ul>
 
-### What it can't can do
+### What it can't do
 <ul>
   <li>Run custom LUA events</li>
   <li>Have more than 2 characters sing at once</li>
@@ -24,10 +24,10 @@ It's basically Friday Night Funkin, but rewritten in TurboWarp.
 
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin engines.<br>
-It's light and fast, making it run really well on lower end devices. Also, JavaScript is the best programming language to ever get created.
+It's light and fast, making it run really well on lower-end devices. Also, JavaScript is the best programming language to ever get created.
 
 # How to use
-While you read this, I would recommend looking the the example mods that I have ported in the "Mods" folder.
+While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
 ### Folder structure
 The folder structure is pretty easy to understand.<br>
 <ul>
@@ -53,14 +53,14 @@ The characters folder contains 2 sub-folders. "Enemy" and "Player". The "Enemy" 
 The 2 folders will both contain:
 <ul>
   <li>A "character.json" file</li>
-  <li>The poses as sepearate frames, followed by their name and frame number</li>
+  <li>The poses as separate frames, followed by their name and frame number</li>
   <li>The icon of the character, named "icon.png"</li>
 </ul>
 Look in the "Mods" folder for examples.
 
 ### character.json
 The "character.json" file will contain the configuration of the character.<br>
-This is it's structure:
+This is its structure:
 <ul>
   <li>"size": size of the character</li>
   <li>"cameraX": where the cameraX goes when this character sings</li>
@@ -131,7 +131,7 @@ This is it's structure:
 </ul>
 
 ### Stage folder
-The stage folder contains all the images in the stage, and a stage.json file. Pretty simple.
+The stage folder contains all the images in the stage and a stage.json file. Pretty simple.
 
 ### stage.json
 The "stage.json" file is a JSON array. Every item in that array is a background object.<br><br>
