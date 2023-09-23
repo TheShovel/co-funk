@@ -1,0 +1,23 @@
+{
+    "size":75,
+    "cameraX":0,
+    "cameraY":-50,
+    "x":0,
+    "y":0,
+    "animations":{
+        "idle":{"frames":"20"},
+        "up":{"frames":"16"},
+        "down":{"frames":"16"},
+        "left":{"frames":"16"},
+        "right":{"frames":"16"},
+        "seconds per frame":0.025
+    },
+    "offsets":{
+        "idle":{"x":0,"y":0},
+        "up":{"x":0,"y":100},
+        "down":{"x":0,"y":-100},
+        "left":{"x":-250,"y":0},
+        "right":{"x":-50,"y":0}
+    },
+    "healthColor":"#0066ff"
+}

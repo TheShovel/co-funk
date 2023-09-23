@@ -3,42 +3,52 @@
 		"player1": "bf-mazin-mall",
 		"events": [
 			[
-				37209.3023255814,
+				0,
 				[
 					[
-						"Camera Zoom Speed",
-						"4",
-						"1"
+						"setEffect",
+						"border radius",
+						"10"
 					]
 				]
 			],
 			[
-				52093.0232558139,
+				0,
 				[
 					[
-						"Camera Zoom Speed",
-						"",
-						""
+						"setEffect",
+						"blur",
+						"2"
 					]
 				]
 			],
 			[
-				119069.76744186,
+				0,
 				[
 					[
-						"Camera Zoom Speed",
-						"4",
-						"1"
+						"setEffect",
+						"contrast",
+						"125"
 					]
 				]
 			],
 			[
-				148837.209302326,
+				0,
 				[
 					[
-						"Camera Zoom Speed",
-						"",
-						""
+						"setEffect",
+						"scale",
+						"95"
+					]
+				]
+			],
+			[
+				0,
+				[
+					[
+						"setEffect",
+						"color shift",
+						"20"
 					]
 				]
 			]
