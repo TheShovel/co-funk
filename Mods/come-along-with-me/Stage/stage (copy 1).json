@@ -1,0 +1,9 @@
+[
+    {"fileName":"BackGlitch.png","x":0,"y":50,"size":60},
+    {"fileName":"AboveGlitch.png","x":0,"y":50,"size":60},
+    {"fileName":"HillStuff.png","x":0,"y":50,"size":60},
+    {"fileName":"Dangling.png","x":0,"y":50,"size":60,"canBop":true},
+    {"fileName":"Corruption.png","x":0,"y":50,"size":60},
+    {"fileName":"CameraShtuff.png","x":0,"y":50,"size":80,"inFront":true},
+    {"fileName":"Particles.png","x":0,"y":50,"size":60,"inFront":true}
+]
