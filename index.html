@@ -205,7 +205,7 @@
       scaffolding.height = 360;
       scaffolding.resizeMode = "preserve-ratio";
       scaffolding.editableLists = false;
-      scaffolding.usePackagedRuntime = false;
+      scaffolding.usePackagedRuntime = true;
       scaffolding.setup();
       scaffolding.appendTo(appElement);
 
@@ -248,7 +248,7 @@
         getSandboxMode: () => 'unsandboxed',
         canLoadExtensionFromProject: () => true
       });
-      for (const extension of ["https://extensions.turbowarp.org/NOname-awa/global-coordinate.js","https://extensions.turbowarp.org/Skyhigh173/json.js","https://extensions.turbowarp.org/Lily/TempVariables2.js","https://extensions.turbowarp.org/Lily/MoreTimers.js","https://extensions.turbowarp.org/utilities.js","https://extensions.turbowarp.org/Lily/ClonesPlus.js","https://extensions.turbowarp.org/-SIPC-/consoles.js","https://extensions.turbowarp.org/-SIPC-/time.js","https://extensions.turbowarp.org/local-storage.js","https://extensions.turbowarp.org/TheShovel/ShovelUtils.js","https://extensions.turbowarp.org/Lily/CommentBlocks.js","https://extensions.turbowarp.org/Lily/Skins.js","https://extensions.turbowarp.org/stretch.js"]) {
+      for (const extension of ["https://extensions.turbowarp.org/Lily/Skins.js","https://extensions.turbowarp.org/NOname-awa/global-coordinate.js","https://extensions.turbowarp.org/Skyhigh173/json.js","https://extensions.turbowarp.org/Lily/TempVariables2.js","https://extensions.turbowarp.org/Lily/MoreTimers.js","https://extensions.turbowarp.org/utilities.js","https://extensions.turbowarp.org/Lily/ClonesPlus.js","https://extensions.turbowarp.org/-SIPC-/consoles.js","https://extensions.turbowarp.org/-SIPC-/time.js","https://extensions.turbowarp.org/TheShovel/ShovelUtils.js","https://extensions.turbowarp.org/local-storage.js","https://extensions.turbowarp.org/Lily/CommentBlocks.js","https://extensions.turbowarp.org/stretch.js"]) {
         vm.extensionManager.loadExtensionURL(extension);
       }
 
