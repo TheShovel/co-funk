@@ -1,7 +1,0 @@
-[
-    {"fileName":"BG.png","x":0,"y":50,"size":50},
-    {"fileName":"hanging.png","x":0,"y":50,"size":50,"canBop":true},
-    {"fileName":"glowthing.png","x":0,"y":50,"size":50},
-    {"fileName":"viggente.png","x":0,"y":50,"size":50,"inFront":true},
-    {"fileName":"CameraShtuff.png","x":0,"y":50,"size":80,"inFront":true}
-]
