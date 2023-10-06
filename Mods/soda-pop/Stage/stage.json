@@ -1,6 +1,0 @@
-[
-    {"fileName":"BG.png","x":0,"y":-50,"size":100},
-    {"fileName":"FRONT.png","x":0,"y":-50,"size":100},
-    {"fileName":"hat.png","x":0,"y":-200,"size":100},
-    {"fileName":"CROWD.png","x":0,"y":-250,"size":100,"inFront":true,"canBop":true}
-]
