@@ -1,0 +1,5 @@
+[
+    {"fileName":"happyRon_sky.png","x":-100,"y":-90,"size":125},
+    {"fileName":"happyRon_ground.png","x":-100,"y":0,"size":80},
+    {"fileName":"gf.png","x":-50,"y":-25,"size":75,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+]

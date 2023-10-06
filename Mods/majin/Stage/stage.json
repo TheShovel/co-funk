@@ -1,0 +1,9 @@
+[
+    {"fileName":"back.png","x":-125,"y":-45,"size":125},
+    {"fileName":"ground.png","x":-125,"y":-100,"size":100},
+    {"fileName":"wall.png","x":-125,"y":-45,"size":100,"isAnimated":true,"frames":20,"seconds per frame":0.025},
+    {"fileName":"tv.png","x":-200,"y":-150,"size":100,"inFront":true},
+    {"fileName":"overlay.png","x":-25,"y":-200,"size":200,"inFront":true},
+    {"fileName":"scanlines.png","x":-200,"y":-150,"size":200,"inFront":true}
+    
+]
