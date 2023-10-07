@@ -1,0 +1,4 @@
+[   {"fileName":"da-sky.png","x":0,"y":0,"size":100},
+    {"fileName":"Dave.png","x":0,"y":-10,"size":150},
+    {"fileName":"RTXGf.png","x":175,"y":-25,"size":90,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+]
