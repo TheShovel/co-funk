@@ -4,6 +4,6 @@
     "DownColor":"#00ffff",
     "UpColor":"#12fa05",
     "fileTypeStatic":".svg",
-    "fileTypeAnimated":".png",
-    "size":40
+    "fileTypeAnimated":".svg",
+    "size":100
     }
