@@ -1,5 +1,0 @@
-[   {"fileName":"the-background-ever.png","x":0,"y":0,"size":100},
-    {"fileName":"counter-thing.png","x":125,"y":-125,"size":100,"inFront":true},
-    {"fileName":"animething.png","x":-25,"y":0,"size":100,"isAnimated":true,"frames":4,"seconds per frame":0.1,"inFront":true}
- 
-]
