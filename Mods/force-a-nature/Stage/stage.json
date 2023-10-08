@@ -1,0 +1,13 @@
+[
+    {"fileName":"sky0.png","x":0,"y":0,"size":100},
+    {"fileName":"sky1.png","x":0,"y":0,"size":100},
+    {"fileName":"sky2.png","x":0,"y":0,"size":100},
+    {"fileName":"sky3.png","x":0,"y":0,"size":100},
+    {"fileName":"floor.png","x":0,"y":0,"size":100},
+    {"fileName":"floor2.png","x":0,"y":0,"size":100},
+    {"fileName":"light1.png","x":0,"y":0,"size":100,"inFront":true},
+    {"fileName":"light2.png","x":0,"y":0,"size":100,"inFront":true},
+    {"fileName":"light3.png","x":0,"y":0,"size":100,"inFront":true},
+    {"fileName":"gf.png","x":0,"y":-60,"size":65,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+    
+]
