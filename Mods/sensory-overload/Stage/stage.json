@@ -1,0 +1,7 @@
+[
+    {"fileName":"monitorBack3.png","x":0,"y":0,"size":100},
+    {"fileName":"binary.png","x":0,"y":0,"size":125,"isAnimated":true,"frames":39,"seconds per frame":0.025,"canBop":true},
+    {"fileName":"stageStone.png","x":0,"y":0,"size":75},
+    {"fileName":"gf.png","x":0,"y":30,"size":75,"isAnimated":true,"frames":30,"seconds per frame":0.025},
+    {"fileName":"vignette.png","x":0,"y":0,"size":100}
+]
