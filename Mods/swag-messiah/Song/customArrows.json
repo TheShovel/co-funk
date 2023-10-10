@@ -1,0 +1,21 @@
+{
+    "Green-Wiz Sing":
+    [
+        {"event":"Add Camera Zoom",
+        "value1":0.1},
+        {"event":"bpmBop",
+        "value1":0.1}
+    ],
+    "Yellow-Wiz Sing":
+    [
+        {"event":"Add Camera Zoom",
+        "value1":0.1},
+        {"event":"bpmBop",
+        "value1":0.1}
+    ],
+    "undefined":
+    [
+        {"event":"Add Camera Zoom",
+        "value1":0.01}
+    ]
+}
