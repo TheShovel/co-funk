@@ -49,7 +49,7 @@ The folder structure is pretty easy to understand.<br>
 </ul>
 
 ### Character folders
-The characters folder contains 2 sub-folders. "Enemy" and "Player". The "Enemy" folder will contain the assets for the character you play against, and the "Player" folder will contain the assets for the character that you play as.<br>
+The characters folder contains 2 sub-folders. "Enemy" and "Player". The "Enemy" folder will contain the assets for the character you play against, and the "Player" folder will contain the assets for the character that you play as. I use [this tool](https://github.com/i-winxd/FnF-Spritesheet-to-PNG-seq/tree/master) to get the individual frames from a spritesheet.<br>
 The 2 folders will both contain:
 <ul>
   <li>A "character.json" file</li>
