@@ -7,5 +7,6 @@
     }
     ],
     "Bonk NoteCIMG":"bonk.png",
-    "Bonk NoteMustHit":false
+    "Bonk NoteMustHit":false,
+    "Bonk NoteHitSound":"bonk.mp3"
 }
