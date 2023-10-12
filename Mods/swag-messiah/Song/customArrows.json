@@ -1,21 +1,24 @@
 {
     "Green-Wiz Sing":
     [
-        {"event":"Add Camera Zoom",
-        "value1":0.1},
-        {"event":"bpmBop",
-        "value1":0.1}
+        {"event":"Change Singer",
+        "value1":1,
+        "value2":"greenWiz"
+    }
     ],
     "Yellow-Wiz Sing":
     [
-        {"event":"Add Camera Zoom",
-        "value1":0.1},
-        {"event":"bpmBop",
-        "value1":0.1}
+        {"event":"Change Singer",
+        "value1":1,
+        "value2":"yellowWiz"
+    }
     ],
     "undefined":
     [
-        {"event":"Add Camera Zoom",
-        "value1":0.01}
-    ]
+        {"event":"Change Singer",
+        "value1":1,
+        "value2":""
+    }
+    ],
+    "undefinedNoBF":true
 }

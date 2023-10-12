@@ -1,0 +1,11 @@
+{
+    "Bonk Note":
+    [
+        {"event":"Set song speed",
+        "value1":4,
+        "value2":"2"
+    }
+    ],
+    "Bonk NoteCIMG":"bonk.png",
+    "Bonk NoteMustHit":false
+}
