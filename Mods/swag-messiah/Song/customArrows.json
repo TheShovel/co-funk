@@ -18,6 +18,10 @@
         {"event":"Change Singer",
         "value1":1,
         "value2":""
+    },
+    {"event":"Add Camera Zoom",
+    "value1":0.025,
+    "value2":""
     }
     ],
     "undefinedNoBF":true

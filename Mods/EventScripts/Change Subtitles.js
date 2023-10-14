@@ -1,0 +1,2 @@
+vm.runtime.ext_lmsTempVars2.setRuntimeVariable({"VAR":"Subtitles","STRING":getLevelVariable("value1")});
+vm.runtime.ext_lmsTempVars2.setRuntimeVariable({"VAR":"SubtitlesColor","STRING":getLevelVariable("value2")});

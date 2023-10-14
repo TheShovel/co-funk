@@ -1,23 +1,23 @@
 {
-    "size":75,
+    "size":125,
     "cameraX":80,
-    "cameraY":80,
-    "x":-200,
-    "y":-100,
+    "cameraY":75,
+    "x":-190,
+    "y":-115,
     "animations":{
-        "idle":{"frames":"13"},
-        "up":{"frames":"60"},
-        "down":{"frames":"16"},
-        "left":{"frames":"16"},
-        "right":{"frames":"19"},
-        "seconds per frame":0.025
+        "idle":{"frames":"6"},
+        "up":{"frames":"5"},
+        "down":{"frames":"5"},
+        "left":{"frames":"5"},
+        "right":{"frames":"5"},
+        "seconds per frame":0.1
     },
     "offsets":{
         "idle":{"x":0,"y":0},
-        "up":{"x":0,"y":50},
-        "down":{"x":40,"y":-25},
-        "left":{"x":-25,"y":15},
-        "right":{"x":30,"y":25}
+        "up":{"x":0,"y":0},
+        "down":{"x":0,"y":0},
+        "left":{"x":0,"y":0},
+        "right":{"x":0,"y":0}
     },
-    "healthColor":"#af66ce"
+    "healthColor":"#a349a3"
 }

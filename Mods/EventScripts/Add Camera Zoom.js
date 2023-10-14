@@ -1,1 +1,1 @@
-vm.runtime.ext_globalCoordinate.CS({"screen":2,"s":value1*100});
+vm.runtime.ext_globalCoordinate.CS({"screen":2,"s":Number(getLevelVariable("value1"))*100});
