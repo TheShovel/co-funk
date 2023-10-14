@@ -1,0 +1,12 @@
+{
+    "Bonk Note":
+    [
+        {"event":"bonkNote",
+        "value1":4,
+        "value2":2
+    }
+    ],
+    "Bonk NoteCIMG":"bonk.png",
+    "Bonk NoteMustHit":false,
+    "Bonk NoteHitSound":"bonk.mp3"
+}

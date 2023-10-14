@@ -1,0 +1,1 @@
+vm.runtime.ext_theshovelcanvaseffects.seteffect({"EFFECT":getLevelVariable("value1"),"STRING":Number(getLevelVariable("value2"))});
