@@ -1,0 +1,6 @@
+[
+    {"fileName":"BACK.png","x":0,"y":0,"size":125},
+    {"fileName":"CLOUDS.png","x":0,"y":50,"size":100,"canBop":true},
+    {"fileName":"gf.png","x":-15,"y":-75,"size":100,"isAnimated":true,"frames":14,"seconds per frame":0.060}
+    
+]
