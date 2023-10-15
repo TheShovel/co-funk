@@ -16,8 +16,8 @@ It's basically Friday Night Funkin but rewritten in PenguinMod.
 
 ### What it can't do
 <ul>
-  <li>Run custom LUA events</li>
-  <li>Have more than 2 characters sing at once</li>
+  <li>R̶u̶n̶ ̶c̶u̶s̶t̶o̶m̶ ̶L̶U̶A̶ ̶e̶v̶e̶n̶t̶s̶ (Since v1, it can run custom JavaScript events!)</li>
+  <li>H̶a̶v̶e̶ ̶m̶o̶r̶e̶ ̶t̶h̶a̶n̶ ̶2̶ ̶c̶h̶a̶r̶a̶c̶t̶e̶r̶s̶ ̶s̶i̶n̶g̶ ̶a̶t̶ ̶o̶n̶c̶e̶ (Added it in v1. Now you can do it.)</li>
   <li>Group multiple songs into weeks</li>
   <li>Access your bank account</li>
 </ul>
