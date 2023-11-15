@@ -1,0 +1,7 @@
+[
+    {"fileName":"sky.png","x":0,"y":0,"size":75},
+    {"fileName":"background.png","x":0,"y":0,"size":75},
+    {"fileName":"ground.png","x":0,"y":0,"size":75},
+    {"fileName":"gf.png","x":0,"y":-25,"size":60,"isAnimated":true,"frames":20,"seconds per frame":0.05}
+    
+]
