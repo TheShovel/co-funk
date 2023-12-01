@@ -1,5 +1,5 @@
 # PenguinFunk
-It's basically Friday Night Funkin but rewritten in PenguinMod.
+It's basically Friday Night Funkin but rewritten in [PenguinMod](https://studio.penguinmod.com/editor.html).
 ### What it can do
 <ul>
   <li>Reads charts made with the Friday Night Funkin chart editor</li>
