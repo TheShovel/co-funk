@@ -6607,14 +6607,19 @@
 						""
 					],
 					[
-						"AddShader",
-						"pixelmask",
-						"0"
+						"shaderApply",
+						"thermal",
+						"25"
 					],
 					[
-						"AddShader",
-						"bug2",
-						"0"
+						"shaderApply",
+						"saturation",
+						"30"
+					],
+					[
+						"shaderApply",
+						"torn",
+						"5"
 					]
 				]
 			],
@@ -6632,7 +6637,7 @@
 						""
 					],
 					[
-						"AddShader",
+						"shaderRemove",
 						"",
 						"2"
 					]
