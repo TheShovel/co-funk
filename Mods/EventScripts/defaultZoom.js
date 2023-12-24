@@ -1,0 +1,2 @@
+vm.runtime.ext_lmsTempVars2.setRuntimeVariable({"VAR":"cameraZoom","STRING":100});
+vm.runtime.ext_globalCoordinate.CS({"screen":2,"s":Number(getLevelVariable("cameraZoom"))-vm.runtime.ext_globalCoordinate.s({"screen":2})-25});
