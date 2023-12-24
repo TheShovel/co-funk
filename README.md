@@ -1,5 +1,6 @@
 # PenguinFunk
-It's basically Friday Night Funkin but rewritten in [PenguinMod](https://studio.penguinmod.com/editor.html).
+It's basically Friday Night Funkin but rewritten in [PenguinMod](https://studio.penguinmod.com/editor.html).  
+Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's like 1.6MB by itself.
 ### What it can do
 <ul>
   <li>Reads charts made with the Friday Night Funkin chart editor</li>
