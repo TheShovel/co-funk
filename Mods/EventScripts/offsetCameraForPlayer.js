@@ -1,4 +1,4 @@
-if (JSON.parse(getLevelVariable("section")).mustHitSection) {
+if (JSON.parse(getLevelVariable("cameraTarget"))) {
     if (!getLevelVariable("lastP2Arrow") == ''){
     if (getLevelVariable("originalOffsetp2x") == '') {
         vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "originalOffsetp2x", "STRING": JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraX)});
