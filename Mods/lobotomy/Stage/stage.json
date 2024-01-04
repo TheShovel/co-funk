@@ -1,0 +1,5 @@
+[
+    {"fileName":"lobotomy.png","x":0,"y":0,"size":80},
+    {"fileName":"fire.png","x":24,"y":-115,"size":80,"isAnimated":true,"frames":14,"seconds per frame":0.025},
+    {"fileName":"","inFront":true,"isCharacter":true,"charaterName":"red"}
+]
