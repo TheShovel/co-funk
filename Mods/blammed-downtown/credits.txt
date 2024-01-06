@@ -1,2 +1,4 @@
-Chart: Yasa,
-Song: Redialbeat Sealsbite
+Chart:
+Yasa
+Song:
+Redialbeat Sealsbite
