@@ -4,4 +4,4 @@ if(Number(getLevelVariable("value1")) == 1){
 } else {
     var tempSinger = "singer2";
 }
-vm.runtime.ext_lmsTempVars2.setRuntimeVariable({"VAR":tempSinger,"STRING":getLevelVariable("value2")});
+setLevelVariable(tempSinger,getLevelVariable("value2"));
