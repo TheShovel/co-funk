@@ -1,0 +1,15 @@
+{   "loop":true,
+    "size":80,
+    "cameraX":0,
+    "cameraY":0,
+    "x":9999,
+    "y":9999,
+    "animations":{
+        "idle":{"frames":"3"},
+        "seconds per frame":0.05
+    },
+    "offsets":{
+        "idle":{"x":0,"y":0}
+    },
+    "healthColor":"#b7d854"
+}

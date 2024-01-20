@@ -1,9 +1,9 @@
 {   "flipped":true,
-    "size":75,
-    "cameraX":-50,
-    "cameraY":120,
-    "x":100,
-    "y":-175,
+    "size":80,
+    "cameraX":-75,
+    "cameraY":100,
+    "x":125,
+    "y":-120,
     "animations":{
         "idle":{"frames":"14"},
         "up":{"frames":"3"},
@@ -19,5 +19,5 @@
         "right":{"x":-80,"y":10},
         "left":{"x":0,"y":-15}
     },
-    "healthColor":"#31b0d1"
+    "healthColor":"#b7d854"
 }

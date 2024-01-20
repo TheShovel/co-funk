@@ -5779,8 +5779,24 @@
 						"Play Animation",
 						"bizayy",
 						"enemy"
+					],
+					[
+						"Move Character",
+						{"main":false,"characterName":"busayy"},
+						{"x":-160,"y":-60}
 					]
 				]
+			],
+			[
+				63637,
+				[
+					[
+						"Move Character",
+						{"main":false,"characterName":"busayy"},
+						{"x":9999,"y":9999}
+					]
+				]
+
 			],
 			[
 				63296.7032967033,

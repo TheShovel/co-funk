@@ -1,7 +1,14 @@
 [
-    {"fileName":"stageback.png","x":-25,"y":-150,"size":80},
-    {"fileName":"stagefront.png","x":-25,"y":-300,"size":100},
-    {"fileName":"stagecurtains.png","x":-25,"y":-50,"size":75,"inFront":true},
-    {"fileName":"gf.png","x":-50,"y":-100,"size":75,"isAnimated":true,"frames":30,"seconds per frame":0.025}
-    
+    {"fileName":"outside.png","x":0,"y":30,"size":80},
+    {"fileName":"bushes.png","x":0,"y":25,"size":80},
+    {"fileName":"springtrap.png","x":0,"y":50,"size":80,"isAnimated":true,"frames":14,"seconds per frame":0.06},
+    {"fileName":"room.png","x":0,"y":0,"size":80},
+    {"fileName":"grunt.png","x":-190,"y":-15,"size":80,"isAnimated":true,"frames":14,"seconds per frame":0.03},
+    {"fileName":"chair.png","x":-370,"y":-100,"size":80},
+    {"fileName":"desk.png","x":0,"y":-185,"size":80},
+    {"fileName":"speaker.png","x":-45,"y":-85,"size":80,"isAnimated":true,"frames":14,"seconds per frame":0.03},
+    {"fileName":"boppers.png","x":-25,"y":-120,"size":80,"isAnimated":true,"frames":14,"seconds per frame":0.03,"inFront":true},
+    {"fileName":"board.png","x":-45,"y":-275,"size":80,"inFront":true},
+    {"fileName":"colohs.png","x":-40,"y":-263.75,"size":80,"inFront":true,"isRGB":true},
+    {"fileName":"","isCharacter":true,"charaterName":"busayy","inFront":true}
 ]
