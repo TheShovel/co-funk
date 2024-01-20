@@ -1,2 +1,2 @@
 //CAN WE ALL JUST USE THE SAME NAME FOR THESE EVENTS PLEASE???
-vm.runtime.ext_lmsTempVars2.setRuntimeVariable({"VAR":"cameraZoom","STRING":(Number(getLevelVariable("cameraZoom"))+Number(getLevelVariable("value1"))*100+35)});
+setLevelVariable("cameraZoom",Number(getLevelVariable("value1"))*100+35);

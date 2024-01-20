@@ -14,5 +14,4 @@ if(jsontemp.main == true){
     tempJSON.x = JSON.parse(getLevelVariable("value2")).x;
     tempJSON.y = JSON.parse(getLevelVariable("value2")).y;
 
-vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": dataPlace,
-"STRING": JSON.stringify(tempJSON)});
+    setLevelVariable(dataPlace, JSON.stringify(tempJSON));

@@ -1,27 +1,36 @@
+if (getLevelVariable("cameraTarget") != ''){
 if (JSON.parse(getLevelVariable("cameraTarget"))) {
     if (!getLevelVariable("lastP2Arrow") == ''){
     if (getLevelVariable("originalOffsetp2x") == '') {
-        vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "originalOffsetp2x", "STRING": JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraX)});
-        vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "originalOffsetp2y", "STRING": JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraY)});
+        setLevelVariable("originalOffsetp2x",JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraX));
+        setLevelVariable("originalOffsetp2y",JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraY));
     }
     var offsetY = JSON.parse(getLevelVariable("player2Data")).offsets[getLevelVariable("lastP2Arrow")].y;
     var offsetX = JSON.parse(getLevelVariable("player2Data")).offsets[getLevelVariable("lastP2Arrow")].x;
-    var jsontemp = JSON.parse(getLevelVariable("player2Data"))
+    var jsontemp = JSON.parse(getLevelVariable("player2Data"));
+    if (jsontemp.flipped == true){
+    jsontemp.cameraX = Number(getLevelVariable("originalOffsetp2x")) + (Number(offsetX) / 4)
+    } else {
     jsontemp.cameraX = Number(getLevelVariable("originalOffsetp2x")) + (0 - Number(offsetX) / 4)
+    }
     jsontemp.cameraY = Number(getLevelVariable("originalOffsetp2y")) + (0 - Number(offsetY) / 4)
-    vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "player2Data", "STRING": JSON.stringify(jsontemp)});
+    setLevelVariable("player2Data",JSON.stringify(jsontemp));
     }
 } else {
     if (!getLevelVariable("lastP1Arrow") == ''){
         if (getLevelVariable("originalOffsetp1x") == '') {
-            vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "originalOffsetp1x", "STRING": JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraX)});
-            vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "originalOffsetp1y", "STRING": JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraY)});
+            setLevelVariable("originalOffsetp1x",JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraX));
+            setLevelVariable("originalOffsetp1y",JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraY));
         }
         var offsetY = JSON.parse(getLevelVariable("player1Data")).offsets[getLevelVariable("lastP1Arrow")].y;
         var offsetX = JSON.parse(getLevelVariable("player1Data")).offsets[getLevelVariable("lastP1Arrow")].x;
-        var jsontemp = JSON.parse(getLevelVariable("player1Data"))
-        jsontemp.cameraX = Number(getLevelVariable("originalOffsetp1x")) + (0 - Number(offsetX) / 4)
+        var jsontemp = JSON.parse(getLevelVariable("player1Data"));
+        if (jsontemp.flipped == true){
+            jsontemp.cameraX = Number(getLevelVariable("originalOffsetp1x")) + (Number(offsetX) / 4)
+            } else {
+            jsontemp.cameraX = Number(getLevelVariable("originalOffsetp1x")) + (0 - Number(offsetX) / 4)
+            }
         jsontemp.cameraY = Number(getLevelVariable("originalOffsetp1y")) + (0 - Number(offsetY) / 4)
-        vm.runtime.ext_lmsTempVars2.setRuntimeVariable({ "VAR": "player1Data", "STRING": JSON.stringify(jsontemp)});
+        setLevelVariable("player1Data",JSON.stringify(jsontemp));
         }
-};
+};};
