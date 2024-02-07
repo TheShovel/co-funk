@@ -1,6 +1,15 @@
 if (getLevelVariable("cameraTarget") != ''){
 if (JSON.parse(getLevelVariable("cameraTarget"))) {
     if (!getLevelVariable("lastP2Arrow") == ''){
+        if(getLevelVariable("lastP2Arrow") == 'left'){
+            setLevelVariable("cameraR",89);
+        }else{
+            if(getLevelVariable("lastP2Arrow") == 'right'){
+                setLevelVariable("cameraR",91);
+            }else{
+                setLevelVariable("cameraR",90);
+            }
+        }
     if (getLevelVariable("originalOffsetp2x") == '') {
         setLevelVariable("originalOffsetp2x",JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraX));
         setLevelVariable("originalOffsetp2y",JSON.stringify(JSON.parse(getLevelVariable("player2Data")).cameraY));
@@ -18,6 +27,15 @@ if (JSON.parse(getLevelVariable("cameraTarget"))) {
     }
 } else {
     if (!getLevelVariable("lastP1Arrow") == ''){
+        if(getLevelVariable("lastP1Arrow") == 'left'){
+            setLevelVariable("cameraR",89);
+        }else{
+            if(getLevelVariable("lastP1Arrow") == 'right'){
+                setLevelVariable("cameraR",91);
+            }else{
+                setLevelVariable("cameraR",90);
+            }
+        }
         if (getLevelVariable("originalOffsetp1x") == '') {
             setLevelVariable("originalOffsetp1x",JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraX));
             setLevelVariable("originalOffsetp1y",JSON.stringify(JSON.parse(getLevelVariable("player1Data")).cameraY));
