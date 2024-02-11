@@ -1,0 +1,17 @@
+{
+    "undefined":
+    [
+        {"event":"offsetCameraForPlayer",
+        "value1":"",
+        "value2":""
+    }
+    ],
+    "Hey!":
+    [
+        {
+            "event":"Play Animation",
+            "value1":"peace",
+            "value2":"player"
+        }
+    ]
+}
