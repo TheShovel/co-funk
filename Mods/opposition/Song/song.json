@@ -12157,6 +12157,173 @@
 				"mustHitSection": true
 			}
 		],
+		"events":[
+			[
+				0,
+				[
+					[
+						"setLevelVar",
+						"arrowOffsetX",
+						"0-Math.abs(Math.cos(Date.now()/300)*200*X/200)"
+					],
+					[
+						"setLevelVar",
+						"arrowOffsetX2",
+						"Math.abs(Math.cos(Date.now()/300)*200*X/200)"
+					]
+				]
+			],
+			[
+				5.20833333333333,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				16005.2083333333,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				48000,
+				[
+					[
+						"Rainbow Eyesore",
+						80000,
+						""
+					]
+				]
+			],
+			[
+				48005.2083333333,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						""
+					]
+				]
+			],
+			[
+				80000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				82000,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				84000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						""
+					]
+				]
+			],
+			[
+				86000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.2",
+						""
+					]
+				]
+			],
+			[
+				88000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.3",
+						""
+					]
+				]
+			],
+			[
+				90000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.4",
+						""
+					]
+				]
+			],
+			[
+				92000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.5",
+						""
+					]
+				]
+			],
+			[
+				94000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.6",
+						""
+					]
+				]
+			],
+			[
+				95000,
+				[
+					[
+						"Set Cam Zoom",
+						"1.7",
+						""
+					]
+				]
+			],
+			[
+				96000,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						""
+					]
+				]
+			],
+			[
+				96005.2083333333,
+				[
+					[
+						"Flash",
+						"1",
+						""
+					]
+				]
+			]
+		],
 		"credit": "ShiftyTM",
 		"player3": "oppsitiongf",
 		"screwYou": "Fuck you! ",

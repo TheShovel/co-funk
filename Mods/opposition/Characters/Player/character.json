@@ -1,15 +1,15 @@
 {
-    "size":75,
-    "cameraX":-50,
-    "cameraY":120,
-    "x":100,
-    "y":-175,
+    "size":80,
+    "cameraX":-100,
+    "cameraY":150,
+    "x":105,
+    "y":-170,
     "animations":{
-        "idle":{"frames":"12"},
-        "up":{"frames":"12"},
-        "down":{"frames":"12"},
-        "left":{"frames":"12"},
-        "right":{"frames":"12"},
+        "idle":{"frames":"18"},
+        "up":{"frames":"15"},
+        "down":{"frames":"21"},
+        "left":{"frames":"15"},
+        "right":{"frames":"21"},
         "seconds per frame":0.025
     },
     "offsets":{
