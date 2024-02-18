@@ -24,7 +24,6 @@ Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's l
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin engines.<br>
 It's light and fast, making it run really well on lower-end devices. Also, JavaScript is the best programming language to ever get created.
-
 # How to use
 While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
 ### Development environment
