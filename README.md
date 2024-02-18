@@ -36,6 +36,8 @@ The easiest way to do this (that I found) is through VSCode (Visual Studio Code)
 ![image](https://github.com/TheShovel/penguin-funk/assets/68913917/01ef17be-a187-48b0-8f46-70e63ac3a42e)  
 3.Run the server  
 ![image](https://github.com/TheShovel/penguin-funk/assets/68913917/15f7fb75-5dc5-4093-b25b-b520d09cddd9)  
+4.Set the variable  
+![image](https://github.com/TheShovel/penguin-funk/assets/68913917/ebb06a99-ef04-4f69-a80d-2ed6f3597f37)  
 ### Folder structure
 The folder structure is pretty easy to understand.<br>
 <ul>
