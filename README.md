@@ -27,6 +27,9 @@ It's light and fast, making it run really well on lower-end devices. Also, JavaS
 
 # How to use
 While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
+### Development environment
+To work on stuff locally, you need a local server that can be accessed by PenguinMod. This turns out to be tricky because of cors and ssl certificates and poo poo but don't worry. I gotchu  
+The easiest way to do this (that I found) is through VSCode (Visual Studio Code), with the Five Server plugin. Just open the "Mods" folder from the repo in VSCode, click on the little button in the right bottom corner, and put the link opened in the "path" variable in PenguinFunk.
 ### Folder structure
 The folder structure is pretty easy to understand.<br>
 <ul>
