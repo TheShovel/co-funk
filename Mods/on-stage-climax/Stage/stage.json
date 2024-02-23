@@ -1,8 +1,0 @@
-[
-    {"fileName":"bg.png","x":0,"y":0,"size":100},
-    {"fileName":"what.png","x":0,"y":0,"size":100},
-    {"fileName":"stagelights.png","x":0,"y":0,"size":100,"inFront":true},
-    {"fileName":"newlight.png","x":0,"y":0,"size":100,"inFront":true},
-    {"fileName":"curtains.png","x":0,"y":50,"size":100,"inFront":true},
-    {"fileName":"","isCharacter":true,"charaterName":"gf"}
-]

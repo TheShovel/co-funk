@@ -1,8 +1,0 @@
-[
-    {"fileName":"","inFront":true,"isCharacter":true,"charaterName":"herosad","isHidden":true},
-    {"fileName":"foresting.png","x":0,"y":0,"size":100,"inFront":true,"isHidden":false},
-    {"fileName":"image1.png","x":0,"y":0,"size":300,"inFront":true,"isHidden":true},
-    {"fileName":"image2.png","x":0,"y":0,"size":320,"inFront":true,"isHidden":true},
-    {"fileName":"image3.png","x":0,"y":0,"size":340,"inFront":true,"isHidden":true},
-    {"fileName":"scanlines.png","x":0,"y":0,"size":200,"inFront":true}
-]

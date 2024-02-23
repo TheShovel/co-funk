@@ -1,8 +1,0 @@
-[
-    {"fileName":"sky.png","x":-25,"y":0,"size":80,"canBop":true},
-    {"fileName":"rock2.png","x":-25,"y":0,"size":80},
-    {"fileName":"ground.png","x":-25,"y":0,"size":80},
-    {"fileName":"gf.png","x":-25,"y":-2.5,"size":25,"isAnimated":true,"frames":28,"seconds per frame":0.035},
-    {"fileName":"gradoverlay.png","x":-25,"y":0,"size":80,"inFront":true},
-    {"fileName":"signfront.png","x":-25,"y":0,"size":80,"inFront":true,"canBop":true}    
-]

@@ -1,6 +1,0 @@
-[
-    {"fileName":"walls.png","x":0,"y":0,"size":50},
-    {"fileName":"fgpillar.png","x":0,"y":0,"size":50,"inFront":true},
-    {"fileName":"janis.png","x":0,"y":-50,"size":75,"isAnimated":true,"frames":4,"seconds per frame":0.025}
-    
-]

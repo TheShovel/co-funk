@@ -1,0 +1,9 @@
+[
+    {"fileName":"sky.png","x":0,"y":0,"size":105},
+    {"fileName":"city.png","x":0,"y":0,"size":100},
+    {"fileName":"window.png","x":0,"y":0,"size":100,"isRGB":true},
+    {"fileName":"behindTrain.png","x":0,"y":0,"size":100},
+    {"fileName":"train.png","x":0,"y":0,"size":100,"isAnimated":true,"frames":4,"seconds per frame":0.035,"isHidden":true},
+    {"fileName":"street.png","x":0,"y":0,"size":100},
+    {"fileName":"gf.png","x":-50,"y":50,"size":95,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+]

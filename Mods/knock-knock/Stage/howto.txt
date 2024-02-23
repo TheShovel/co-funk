@@ -1,1 +1,0 @@
-Every JSON item in the array in stage.json is a background layer.
