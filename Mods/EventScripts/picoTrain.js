@@ -1,6 +1,6 @@
 async function playAudio() {
   var audio = new Audio(getLevelVariable("path")+"EventScripts/train_passes.mp3");
-  audio.type = 'audio/wav';
+  audio.type = 'audio/mp3';
     await audio.play();
 }
 const delay = ms => new Promise(res => setTimeout(res, ms));
