@@ -1,29 +1,16 @@
 # PenguinFunk
-It's basically Friday Night Funkin but rewritten in [PenguinMod](https://studio.penguinmod.com/editor.html).  
-Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's like 1.6MB by itself.
+Friday Night Funkin rewrite made in [PenguinMod](https://studio.penguinmod.com/editor.html).  
+Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's like 1.4MB by itself. Thats insane.
 ### What it can do
-<ul>
-  <li>Reads charts made with the Friday Night Funkin chart editor</li>
-  <li>Group multiple songs into weeks</li>
-  <li>Has (limited) support for Psych Engine events. You can add more using JavaScript!</li>
-  <li>Can load mods from the "Mods" folder
-    <ul>
-      <li>Characters with configs and icons</li>
-      <li>Stages with configs and animated elements</li>
-      <li>Songs with charts</li>
-    </ul>
-  </li>
-  <li>Customizable list to display the mods </li>
-</ul>
+Most things that vanilla FNF can do, and A LOT more.<br>
+We are talking like custom events, modding support, cross platform (mobile support out of the box!!!) and like so much cool stuff (better than psych engine for real for real)
 
 ### What it can't do
-<ul>
-  <li>Access your bank account</li>
-</ul>
+Access your bank account
 
 ### Why does this exist
-Because it's very small compared to other Friday Night Funkin engines.<br>
-It's light and fast, making it run really well on lower-end devices. Also, JavaScript is the best programming language to ever get created.
+Because it's very small compared to other Friday Night Funkin frameworks.<br>
+It's lightweight and fast, making it run really well on lower-end devices. Also, JavaScript is the best programming language to ever get created.
 # How to use
 While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
 ### Development environment
@@ -43,7 +30,7 @@ The folder structure is pretty easy to understand.<br>
 <ul>
   <li>Mods</li>
   <ul>
-  <li>Mod-name
+  <li>song-name
     <ul>
       <li>Characters
     <ul>
@@ -51,26 +38,30 @@ The folder structure is pretty easy to understand.<br>
       <li>Enemy</li>
     </ul>
   </li>
-      <li>Stage</li>
       <li>Song</li>
     </ul>
   </li>
   </ul>
 </ul>
 
-### Character folders
-The characters folder contains 2 sub-folders. "Enemy" and "Player". The "Enemy" folder will contain the assets for the character you play against, and the "Player" folder will contain the assets for the character that you play as. I use [this tool](https://github.com/i-winxd/FnF-Spritesheet-to-PNG-seq/tree/master) to get the individual frames from a spritesheet.<br>
-The 2 folders will both contain:
-<ul>
-  <li>A "character.json" file</li>
-  <li>The poses as separate frames, followed by their name and frame number</li>
-  <li>The icon of the character, named "icon.png"</li>
-</ul>
-Look in the "Mods" folder for examples.
+You could also just download the Electron version in the releases if you just wanna add new songs and weeks
 
-### character.json
+# Song folder
+The song folders contain something essential. The "paths.json" file. This file contains the names of the characters and stage, as well as other information like if the song has a cutscene.<br>
+Here is the structure of the file:
+<ul>
+  <li>"Enemy":"enemy-name"</li>
+  <li>"Player":"player-name"</li>
+  <li>"Stage":"stage-name"</li>
+  <li>"Cutscene":true/false</li>
+</ul>
+Remember that I mentioned cutscenes? You can add a mp4 file called "cutscene.mp4" in this the folder, and set the "Cutscene" property in "paths.json" to true, and the video will play before the song starts (check "thorns" for an example).<br><br>
+This folder also contains the thumbnail for the song inside the freeplay menu. Its called "menuImage.png".
+
+## character.json
+Inside the "Enemy" and "Player" folders in the "Characters folder"... Inside the song folder... There is a "character.json" file.<br>
 The "character.json" file will contain the configuration of the character.<br>
-This is its structure:
+This is the structure of this file:
 <ul>
   <li>"size": size of the character</li>
   <li>"cameraX": where the cameraX goes when this character sings</li>
@@ -140,10 +131,24 @@ This is its structure:
     <li>"healthColor": color in HEX</li>
 </ul>
 
-### Stage folder
-The stage folder contains all the images in the stage and a stage.json file. Pretty simple.
+There are some extra values you can add at the very top of the json file.<br>
+``"loop":true`` makes the idle animation constantly loop (look at the mom week for examples).
+``"flipped":true`` flips the character.
 
-### stage.json
+## Song folder
+This is the Song folder inside the folder of the song. It contains "song.json" and "song.mp3".<br>
+Unlike other Friday Night Funkin engines, this one doesn't use 2 separate tracks for the instrumental and the vocals. They are merged into an MP3 file. It's also worth noting that nothing besides MP3 works.<br>
+The "song.json" file is just the chart of the song. Nothing special.
+
+# Stages folder
+
+Contains all stages.
+
+### Stage folder
+
+A stage's folder constains all of its assets and the "stage.json" file. Optionally, it can also contain a "stageExtra.json" file, that contains optional stuff. Duh.
+
+## stage.json
 The "stage.json" file is a JSON array. Every item in that array is a background object.<br><br>
 A basic background item looks like this:<br>
 ```
@@ -157,14 +162,225 @@ An animated background item looks like this:<br>
 <br><br>
 There also are special properties that you can add:<br>
 ```"canBop"``` will make that element bop on the beat. You can look at the "stage.json" file of the "fuss-erect" and "soda-pop" examples to see it.<br>
-```"inFront"``` will render the element in front of everything else.
-### Song folder
-It contains "song.json" and "song.mp3".<br>
-Unlike other Friday Night Funkin engines, this one doesn't use 2 separate tracks for the instrumental and the vocals. They are merged into an MP3 file. It's also worth noting that nothing besides MP3 works.<br>
-The "song.json" file is just the chart of the song. Nothing special.
+```"inFront"``` will render the element in front of everything else.<br>
+```"isRGB"``` will make the object shift its color automatically. Like the lights in the Pico week.
 
+## stageExtra.json
+Extra stage stuff. All it does right now is specify if a stage is in the pixel style or not, with the ``"isPixel?":true`` value.
+
+# Characters folder
+
+Not to be confused with the characters folder inside the song's folder, this is inside the main "Mods" folder and contains all the characters.
+
+## Character folder
+
+Contains all the images of a character. Unlike other FNF frameworks, this uses PNG sequences instead of spritesheets.<br><br>
+All the animations should be named like ``animationName+frameNumber.png``. For example, the up animation for a character goes like ``up1.png``, then ``up2.png`` and so on. All the animations are then included in the "character.json" file we talked about previously.<br>
+There is also a "icon.png" file that is the icon of the character. It appears on the health bar.
+
+### EventScripts folder
+Contains all the events. You can look at the existing ones to learn how to write your own. It's just JavaScript with a couple of predefined functions you can use.
+
+### loadingScreens folder
+Contains the loading screens.
+
+### bgart folder
+Contains all the background art that pops up in the menus.
+
+### modList.json
+List with all the songs in freeplay.
+
+### Weeks folder
+Contains all the weeks and their data.
+## weekList.json
+Lists all the weeks in the weeks menu.
+## Week folders
+They contain the image for the week inside the weeks menu, and the "songList.json" that is basically the config for the week.
+
+## songList.json
+The ``Songs`` array contains all the songs in order.<br>
+The ``weekStory`` array contains that little funny text.<br>
+The ``disableReload`` disables reloading of the stage and characters. This can be used to save load times in weeks where the characters and stage dont change.<br>
 
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
 <br>
 <br>
 <br>
