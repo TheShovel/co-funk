@@ -26,3 +26,8 @@ function setLevelVariable(VAR,DATA) {
 function broadcast(NAME) {
     vm.runtime.startHats('event_whenbroadcastreceived',{ BROADCAST_OPTION: NAME })
 };
+try{
+var valueObject = JSON.parse(getLevelVariable("value1"));
+}
+catch(err){}
+
