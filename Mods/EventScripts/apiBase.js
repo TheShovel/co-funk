@@ -29,5 +29,6 @@ function broadcast(NAME) {
 try{
 var valueObject = JSON.parse(getLevelVariable("value1"));
 }
-catch(err){}
+catch(err){};
+var scriptSession = getLevelVariable("sessionID");
 

@@ -1,8 +1,8 @@
 {   "flipped":true,
     "size":95,
-    "cameraX":95,
+    "cameraX":65,
     "cameraY":0,
-    "x":-200,
+    "x":-175,
     "y":-35,
     "animations":{
         "idle":{"frames":"14"},
