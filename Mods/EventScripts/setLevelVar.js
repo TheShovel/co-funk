@@ -1,1 +1,0 @@
-setLevelVariable(getLevelVariable("value1"),getLevelVariable("value2"));
