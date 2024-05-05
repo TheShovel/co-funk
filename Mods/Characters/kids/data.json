@@ -5,6 +5,7 @@
     "down":{"frames":"25"},
     "left":{"frames":"15"},
     "right":{"frames":"25"},
+    "cheer":{"frames":"20"},
     "seconds per frame":0.025
 },
 "offsets":{
@@ -12,6 +13,7 @@
     "up":{"x":-50,"y":40},
     "down":{"x":0,"y":-150},
     "left":{"x":-220,"y":0},
-    "right":{"x":250,"y":0}
+    "right":{"x":250,"y":0},
+    "cheer":{"x":60,"y":25}
 },
 "healthColor":"#c17200"} 

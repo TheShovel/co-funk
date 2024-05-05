@@ -15,7 +15,7 @@
       {
         "t": 18800,
         "e": "PlayAnimation",
-        "v": { "target": "boyfriend", "anim": "cheer", "force": true }
+        "v": { "target": "boyfriend", "anim": "hey", "force": true }
       },
       { "t": 19200, "e": "FocusCamera", "v": 1 },
       { "t": 25600, "e": "FocusCamera", "v": 0 },

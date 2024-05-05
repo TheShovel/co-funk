@@ -1,5 +1,5 @@
 //Missing animations are handled by the framework
-if (valueObject.target == "enemy") {
+if (valueObject.target == "dad") {
   setLevelVariable("lastP1Arrow", valueObject.anim);
   broadcast("animateP1");
 } else {
