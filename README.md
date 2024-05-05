@@ -113,8 +113,8 @@ Not to be confused with the characters folder inside the song's folder, this is 
 ## Character folder
 
 Contains all the images of a character. Unlike other FNF frameworks, this uses PNG sequences instead of spritesheets.<br><br>
-All the animations should be named like ``animationName+frameNumber.png``. For example, the up animation for a character goes like ``up1.png``, then ``up2.png`` and so on. All the animations are then included in the "character.json" file we talked about previously.<br>
-There is also a "icon.png" file that is the icon of the character. It appears on the health bar.
+All the animations should be named like ``animationName+frameNumber.png``. For example, the up animation for a character goes like ``up1.png``, then ``up2.png`` and so on.<br>
+There is also a "icon.png" file that is the icon of the character. It appears on the health bar.<br>
 Inside here there is a ``data.json`` file that contains the configuration file for the animations of the character. It looks like this
   <li>"animations"
     <ul>
