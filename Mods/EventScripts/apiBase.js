@@ -17,18 +17,19 @@ function getLevelVariable(VAR) {
     });
 };
 
-function setLevelVariable(VAR,DATA) {
+function setLevelVariable(VAR, DATA) {
     vm.runtime.ext_lmsTempVars2.setRuntimeVariable({
         "VAR": VAR,
         "STRING": DATA
     });
 };
-function broadcast(NAME) {
-    vm.runtime.startHats('event_whenbroadcastreceived',{ BROADCAST_OPTION: NAME })
-};
-try{
-var valueObject = JSON.parse(getLevelVariable("value1"));
-}
-catch(err){};
-var scriptSession = getLevelVariable("sessionID");
 
+function broadcast(NAME) {
+    vm.runtime.startHats('event_whenbroadcastreceived', {
+        BROADCAST_OPTION: NAME
+    })
+};
+try {
+    var valueObject = JSON.parse(getLevelVariable("value1"));
+} catch (err) {};
+var scriptSession = getLevelVariable("sessionID");

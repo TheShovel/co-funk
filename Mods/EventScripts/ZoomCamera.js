@@ -1,1 +1,1 @@
-setLevelVariable("cameraZoom",valueObject.zoom*100);
+setLevelVariable("cameraZoom", valueObject.zoom * 100);

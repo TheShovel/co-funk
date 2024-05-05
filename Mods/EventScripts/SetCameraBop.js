@@ -1,2 +1,2 @@
-setLevelVariable("bopIntensity",valueObject.intensity);
-setLevelVariable("bopRate",valueObject.rate);
+setLevelVariable("bopIntensity", valueObject.intensity);
+setLevelVariable("bopRate", valueObject.rate);
