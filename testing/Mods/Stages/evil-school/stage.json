@@ -1,0 +1,5 @@
+[
+    {"fileName":"bg.png","x":0,"y":0,"size":600,"isAnimated":true,"frames":40,"seconds per frame":0.025},
+    {"fileName":"degens.png","x":0,"y":0,"size":600,"isAnimated":true,"frames":19,"seconds per frame":0.025},
+    {"fileName":"gf.png","x":0,"y":0,"size":600,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+]
