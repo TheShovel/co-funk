@@ -1,5 +1,6 @@
 [
     {"fileName":"halloween_bg_low.png","x":0,"y":0,"size":100},
-    {"fileName":"gf.png","x":-60,"y":15,"size":100,"isAnimated":true,"frames":30,"seconds per frame":0.025}
-    
+    {"character":3},
+    {"character":1},
+    {"character":2}   
 ]
