@@ -9,5 +9,7 @@
     {"fileName":"smokeleft.png","x":-300,"y":50,"size":125,"isAnimated":true,"frames":48,"seconds per frame":0.025},
     {"fileName":"smokeright.png","x":400,"y":0,"size":125,"isAnimated":true,"frames":48,"seconds per frame":0.025},
     {"fileName":"tankGround.png","x":0,"y":0,"size":125},
-    {"fileName":"gf.png","x":0,"y":50,"size":100,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+    {"character":3},
+    {"character":1},
+    {"character":2}
 ]

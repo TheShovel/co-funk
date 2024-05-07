@@ -1,0 +1,8 @@
+{
+    "Enemy":"tankman",
+    "Player":"bf-gf",
+    "Stage":"battlefield1",
+    "Gf":"pico-speaker",
+    "Cutscene":true,
+    "GfChart":"picospeaker"
+}

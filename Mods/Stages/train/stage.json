@@ -5,5 +5,7 @@
     {"fileName":"behindTrain.png","x":0,"y":0,"size":100},
     {"fileName":"train.png","x":0,"y":0,"size":100,"isAnimated":true,"frames":4,"seconds per frame":0.035,"isHidden":true},
     {"fileName":"street.png","x":0,"y":0,"size":100},
-    {"fileName":"gf.png","x":-50,"y":50,"size":95,"isAnimated":true,"frames":30,"seconds per frame":0.025}
+    {"character":3},
+    {"character":1},
+    {"character":2}
 ]
