@@ -1,12 +1,15 @@
 # PenguinFunk
-Friday Night Funkin rewrite made in [PenguinMod](https://studio.penguinmod.com/editor.html).  
+The bare minimum that you need to get funky on a Friday night<br>
+Friday Night Funkin' rewrite made in [PenguinMod](https://studio.penguinmod.com/editor.html).  
 Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's like 1.4MB by itself. Thats insane.
 ### What it can do
-Most things that vanilla FNF can do, and A LOT more.<br>
-We are talking like custom events, modding support, cross platform (mobile support out of the box!!!) and like so much cool stuff (better than psych engine for real for real)
+Most things that vanilla FNF can do, and more, or at leat other different stuff.<br>
+We are talking like custom events, modding support, cross platform (mobile support out of the box!!!) and like so much cool stuff (better than psych engine for real for real :troll:)
 
 ### What it can't do
-Access your bank account
+Access your bank account<br>
+Make profit<br>
+Get uploaded to Google Play with an AD after every arrow is pressed
 
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin frameworks.<br>
