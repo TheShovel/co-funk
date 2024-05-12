@@ -1,0 +1,15 @@
+[
+    {"fileName":"tankSky.png","x":0,"y":0,"size":125},
+    {"fileName":"tankMountains.png","x":0,"y":0,"size":125},
+    {"fileName":"tankClouds.png","x":0,"y":125,"size":125},
+    {"fileName":"tankBuildings.png","x":0,"y":0,"size":125},
+    {"fileName":"tankRuins.png","x":0,"y":0,"size":125},
+    {"fileName":"tower.png","x":-300,"y":0,"size":125,"isAnimated":true,"frames":14,"seconds per frame":0.025},
+    {"fileName":"tankrolling.png","x":0,"y":-500,"size":125,"spinSpeed":-15},
+    {"fileName":"smokeleft.png","x":-300,"y":50,"size":125,"isAnimated":true,"frames":48,"seconds per frame":0.025},
+    {"fileName":"smokeright.png","x":400,"y":0,"size":125,"isAnimated":true,"frames":48,"seconds per frame":0.025},
+    {"fileName":"tankGround.png","x":0,"y":0,"size":125},
+    {"character":3},
+    {"character":1},
+    {"character":2}
+]
