@@ -6,7 +6,7 @@ async function trainSound() {
 }
 const delay = ms => new Promise(res => setTimeout(res, ms));
 const pass = async () => {
-    await delay(Math.random() * 20000);
+    await delay(Math.random() * 20000+35000);
     if (getLevelVariable("sessionID") == scriptSession) {
         trainSound();
         await delay(4000);
