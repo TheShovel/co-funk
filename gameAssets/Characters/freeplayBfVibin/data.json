@@ -1,0 +1,24 @@
+{
+    "size": 100,
+    "x": 210,
+    "y": 0,
+    "animations": {
+        "idle": {
+            "frames": "14"
+        },
+        "confirm": {
+            "frames": "30"
+        },
+        "seconds per frame": 0.035
+    },
+    "offsets": {
+        "idle": {
+            "x": 0,
+            "y": 0
+        },
+        "confirm": {
+            "x": -44,
+            "y": -24
+        }
+    }
+}

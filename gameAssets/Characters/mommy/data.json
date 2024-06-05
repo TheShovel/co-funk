@@ -1,0 +1,17 @@
+{
+"animations":{
+    "idle":{"frames":"14"},
+    "up":{"frames":"15"},
+    "down":{"frames":"15"},
+    "left":{"frames":"10"},
+    "right":{"frames":"10"},
+    "seconds per frame":0.025
+},
+"offsets":{
+    "idle":{"x":0,"y":0},
+    "up":{"x":0,"y":120},
+    "down":{"x":25,"y":-100},
+    "left":{"x":-415,"y":-25},
+    "right":{"x":-90,"y":-55}
+},
+"healthColor":"#d8558e"}
