@@ -1,1 +1,0 @@
-setLevelVariable("cameraZoom",Number(getLevelVariable("value1"))*100+35);
