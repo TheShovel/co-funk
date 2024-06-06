@@ -1,1 +1,0 @@
-vm.runtime.ext_SPspriteEffects.removeAllFilters()

@@ -1,1 +1,0 @@
-setLevelVariable("songSpeed", getLevelVariable("value1"));
