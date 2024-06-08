@@ -5,5 +5,8 @@
     "UpColor":"#12fa05",
     "fileTypeStatic":".svg",
     "fileTypeAnimated":".svg",
-    "size":100
+    "size":100,
+    "frames":4,
+    "secondsPerFrame":0.05
+
     }
