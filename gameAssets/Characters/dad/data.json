@@ -1,4 +1,6 @@
-{
+{   
+    "name":"Daddy Dearest",
+    "title":"The dad",
     "animations":{
         "idle":{"frames":"13"},
         "up":{"frames":"60"},
