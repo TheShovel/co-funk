@@ -1,4 +1,6 @@
 {
+    "name":"Tankman",
+    "title":"The tank man",
     "animations":{
         "idle":{"frames":"14"},
         "up":{"frames":"10"},

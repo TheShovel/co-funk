@@ -1,4 +1,6 @@
 {
+    "name":"Lemon demon",
+    "title":"...",
 "animations":{
     "idle":{"frames":"15"},
     "up":{"frames":"24"},
