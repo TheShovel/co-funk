@@ -1,0 +1,28 @@
+{   
+    "name":"Daddy and mommy",
+    "title":"The parents",
+    "animations":{
+        "idle":{"frames":"14"},
+        "up":{"frames":"14"},
+        "down":{"frames":"15"},
+        "left":{"frames":"16"},
+        "right":{"frames":"16"},
+        "down-mom":{"frames":"15"},
+        "left-mom":{"frames":"15"},
+        "right-mom":{"frames":"15"},
+        "up-mom":{"frames":"14"},
+        "seconds per frame":0.025
+    },
+    "offsets":{
+        "idle":{"x":0,"y":0},
+        "up":{"x":0,"y":24},
+        "down":{"x":40,"y":-25},
+        "left":{"x":-32,"y":19},
+        "right":{"x":74,"y":-21},
+        "up-mom":{"x":0,"y":24},
+        "down-mom":{"x":40,"y":-25},
+        "left-mom":{"x":-30,"y":19},
+        "right-mom":{"x":74,"y":-21}
+    },
+    "healthColor":"#af66ce"
+}
