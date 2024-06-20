@@ -1,9 +1,9 @@
 {
     "size":75,
-    "cameraX":-50,
-    "cameraY":120,
-    "x":100,
-    "y":-175,
+    "cameraX":-100,
+    "cameraY":80,
+    "x":195,
+    "y":-160,
     "animations":{
         "idle":{"frames":"14"},
         "up":{"frames":"15"},

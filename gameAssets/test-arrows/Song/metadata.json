@@ -1,0 +1,46 @@
+{
+  "version": "2.2.3",
+  "songName": "Not Enough Notes",
+  "artist": "Unknown",
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    }
+  },
+  "playData": {
+    "songVariations": [    ],
+    "difficulties": [
+      "normal"
+    ],
+    "characters": {
+      "player": "bf",
+      "girlfriend": "gf",
+      "opponent": "screwedguy",
+      "instrumental": "",
+      "altInstrumentals": [      ]
+    },
+    "stage": "mainStage",
+    "noteStyle": "funkin",
+    "ratings": {    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.4.1",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 522,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
     "Enemy":"parents-christmas",
-    "Player":"bf",
-    "Gf":"gf",
-    "Stage":"stage"
+    "Player":"bf-christmas",
+    "Gf":"gf-christmas",
+    "Stage":"mall"
 }
