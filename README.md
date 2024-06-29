@@ -1,4 +1,4 @@
-# PenguinFunk
+# Co-Funk
 The bare minimum that you need to get funky on a Friday night<br>
 Friday Night Funkin' rewrite made in [PenguinMod](https://studio.penguinmod.com/editor.html).  
 Probably the cleanest Friday Night Funkin framework ever. Like seriously. It's like 1.4MB by itself. Thats insane.
@@ -18,7 +18,7 @@ It's lightweight and fast, making it run really well on lower-end devices. Also,
 While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
 ### Development environment
 To work on stuff locally, you need a local server that can be accessed by PenguinMod. This turns out to be tricky because of cors and ssl certificates and poo poo but don't worry. I gotchu  
-The easiest way to do this (that I found) is through VSCode (Visual Studio Code), with the Five Server plugin. Just open the "Mods" folder from the repo in VSCode, click on the little button in the right bottom corner, and put the link opened in the "path" variable in PenguinFunk.  
+The easiest way to do this (that I found) is through VSCode (Visual Studio Code), with the Five Server plugin. Just open the "Mods" folder from the repo in VSCode, click on the little button in the right bottom corner, and put the link opened in the "path" variable in Co-Funk.  
 #### 1.Download the Plugin  
 ![image](https://github.com/TheShovel/penguin-funk/assets/68913917/311aae9b-ffd2-469b-b6cf-cda26a77d380)  
 #### 2.Open the folder  
