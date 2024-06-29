@@ -1,4 +1,6 @@
 {
+    "name":"Mommy Mearest",
+    "title":"The mom",
 "animations":{
     "idle":{"frames":"14"},
     "up":{"frames":"15"},

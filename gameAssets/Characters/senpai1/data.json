@@ -1,4 +1,6 @@
  {
+    "name":"Senpai",
+    "title":"The NPC",
 "animations":{
     "idle":{"frames":"28"},
     "up":{"frames":"14"},

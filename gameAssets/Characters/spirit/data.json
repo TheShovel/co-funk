@@ -1,4 +1,6 @@
 {
+    "name":"Spirit",
+    "title":"The trapped",
     "animations":{
         "idle":{"frames":"20"},
         "up":{"frames":"20"},
