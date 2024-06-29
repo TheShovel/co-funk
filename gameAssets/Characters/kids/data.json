@@ -1,4 +1,6 @@
 {
+    "name":"Spooky kids",
+    "title":"Spooky month!!!",
 "animations":{
     "idle":{"frames":"16"},
     "up":{"frames":"5"},

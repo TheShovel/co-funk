@@ -1,5 +1,7 @@
  
 {
+    "name":"Pico",
+    "title":"The shooter",
 "animations":{
     "idle":{"frames":"14"},
     "up":{"frames":"14"},
