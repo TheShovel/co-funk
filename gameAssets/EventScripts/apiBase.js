@@ -1,9 +1,7 @@
 //This code has to ALWAYS retrun no errors and be formatted correctly or
 //the loader wont be able to handle the code properly
 function getLevelVariable(VAR) {
-    if (vm.runtime.ext_lmsTempVars2.getRuntimeVariable({
-            "VAR": "isHost?"
-        }) == '1') {
+    if (vm.runtime.variables["isHost?"] == '1') {
         if (VAR == 'lastP2Arrow') {
             VAR = 'lastP1Arrow'
         } else {
@@ -12,16 +10,11 @@ function getLevelVariable(VAR) {
             }
         }
     }
-    return vm.runtime.ext_lmsTempVars2.getRuntimeVariable({
-        "VAR": VAR
-    });
+    return vm.runtime.variables[VAR];
 };
 
 function setLevelVariable(VAR, DATA) {
-    vm.runtime.ext_lmsTempVars2.setRuntimeVariable({
-        "VAR": VAR,
-        "STRING": DATA
-    });
+    vm.runtime.variables[VAR] = DATA;
 };
 
 function broadcast(NAME) {
