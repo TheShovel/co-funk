@@ -1,0 +1,13 @@
+[
+    {"fileName":"phillySkybox.png","x":0,"y":10,"size":125,"z":-0.9},
+    {"fileName":"phillySkyline.png","x":0,"y":10,"size":100,"z":-0.6},
+    {"fileName":"phillyForegroundCity.png","x":90,"y":0,"size":100,"z":-0.5},
+    {"fileName":"phillyConstruction.png","x":400,"y":-35,"size":100,"z":-0.5},
+    {"fileName":"phillyHighwayLights.png","x":-200,"y":170,"size":75,"z":-0.3},
+    {"fileName":"phillyHighway.png","x":-200,"y":110,"size":75,"z":-0.3},
+    {"fileName":"phillySmog.png","x":20,"y":20,"size":100,"z":-0.2},
+    {"fileName":"phillyForeground.png","x":-20,"y":-35,"size":75},
+    {"character":3},
+    {"character":1},
+    {"character":2}
+]
