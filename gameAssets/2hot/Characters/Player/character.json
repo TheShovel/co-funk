@@ -1,5 +1,6 @@
 {
     "size":75,
+    "flipDirections":true,
     "cameraX":-120,
     "cameraY":0,
     "x":280,

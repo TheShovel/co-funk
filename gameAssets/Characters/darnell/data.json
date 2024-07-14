@@ -2,11 +2,14 @@
     "name":"Darnell",
     "title":"The betrayed",
     "animations":{
-        "idle":{"frames":"13"},
-        "up":{"frames":"60"},
-        "down":{"frames":"16"},
-        "left":{"frames":"16"},
-        "right":{"frames":"19"},
+        "idle":{"frames":"28"},
+        "up":{"frames":"12"},
+        "down":{"frames":"12"},
+        "left":{"frames":"12"},
+        "right":{"frames":"12"},
+        "kick":{"frames":"12"},
+        "knee":{"frames":"11"},
+        "lightCan":{"frames":"15"},
         "seconds per frame":0.025
     },
     "offsets":{
