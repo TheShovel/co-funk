@@ -22,10 +22,10 @@
     "hitHigh":{"x":110,"y":60},
     "hitLow":{"x":125,"y":10},
     "punchHigh":{"x":-150,"y":-10},
-    "punchLow":{"x":-150,"y":-10},
+    "punchLow":{"x":-150,"y":-50},
     "spin":{"x":0,"y":-10},
     "uppercut":{"x":-100,"y":125},
-    "laughing":{"x":0,"y":0}
+    "laughing":{"x":0,"y":25}
 },
 "healthColor":"#31b0d1"
 }

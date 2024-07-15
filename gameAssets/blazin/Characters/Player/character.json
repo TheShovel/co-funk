@@ -1,8 +1,7 @@
-{
-    "size":75,
-    "flipDirections":true,
-    "cameraX":-120,
+{   "noAnims":true,
+    "size":150,
+    "cameraX":0,
     "cameraY":0,
-    "x":280,
-    "y":-60
+    "x":135,
+    "y":-70
 }

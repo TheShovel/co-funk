@@ -1,7 +1,7 @@
-{
-    "size":100,
-    "cameraX":70,
+{   "noAnims":true,
+    "size":150,
+    "cameraX":0,
     "cameraY":0,
-    "x":-200,
-    "y":-60
+    "x":-135,
+    "y":-70
 }
