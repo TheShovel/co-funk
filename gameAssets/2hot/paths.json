@@ -3,5 +3,7 @@
     "Player":"pico",
     "Gf":"sprayCan",
     "Stage":"phillyStreets",
-    "GfChart":"sprayCan"
+    "GfChart":"sprayCan",
+    "Cutscene":true,
+    "endCutscene":true
 }

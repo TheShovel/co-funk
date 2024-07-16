@@ -1,4 +1,7 @@
-{   "disableIdle":true,
+{   
+"name":"Pico",
+    "title":"The shooter",    
+"disableIdle":true,
     "animations":{
     "beforeUppercut":{"frames":"14"},
     "blockHit":{"frames":"9"},
@@ -27,5 +30,5 @@
     "uppercut":{"x":-100,"y":125},
     "laughing":{"x":0,"y":25}
 },
-"healthColor":"#31b0d1"
+"healthColor":"#b3d353"
 }

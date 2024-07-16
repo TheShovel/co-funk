@@ -133,6 +133,18 @@ const check = async () => {
                 setLevelVariable("lastP1Arrow", "idle");
                 broadcast("animateP1");
                 broadcast("animateP2");
+                await delay(1000);
+                broadcast("animateP1");
+                broadcast("animateP2");
+                await delay(1000);
+                broadcast("animateP1");
+                broadcast("animateP2");
+                await delay(1000);
+                broadcast("animateP1");
+                broadcast("animateP2");
+                await delay(1000);
+                broadcast("animateP1");
+                broadcast("animateP2");
                 break;
             case "weekend-1-dodgehigh":
                 setLevelVariable("lastP2Arrow", "dodge");
@@ -140,7 +152,10 @@ const check = async () => {
                 broadcast("animateP1");
                 broadcast("animateP2");
                 break;
-        }}
+        }
+        vm.runtime.ext_globalCoordinate.CS({"s":1,"screen":2});
+        vm.runtime.ext_globalCoordinate.TL({"r":Math.random()*2-1,"screen":2});
+    }
         check();
     }else{
         console.log("done");
