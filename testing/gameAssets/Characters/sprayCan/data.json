@@ -1,0 +1,15 @@
+{
+    "animations":{
+    "idle":{"frames":"1"},
+    "kicked":{"frames":"4"},
+    "pickup":{"frames":"13"},
+    "explode":{"frames":"14"},
+    "seconds per frame":0.045
+},
+"offsets":{
+    "idle":{"x":0,"y":0},
+    "kicked":{"x":0,"y":100},
+    "explode":{"x":800,"y":0},
+    "pickup":{"x":-900,"y":-150}
+}
+}

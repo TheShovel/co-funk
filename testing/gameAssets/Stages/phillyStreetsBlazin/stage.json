@@ -1,0 +1,8 @@
+[
+    {"fileName":"bg.png","x":0,"y":10,"size":125},
+    {"fileName":"nene.png","x":30,"y":22,"size":70,"isAnimated":true,"frames":30,"seconds per frame":0.03},
+    {"fileName":"bgDarken.png","x":0,"y":10,"size":125},
+    {"character":3},
+    {"character":2},
+    {"character":1}
+]

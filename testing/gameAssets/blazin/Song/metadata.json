@@ -1,0 +1,54 @@
+{
+  "version": "2.2.3",
+  "songName": "Blazin'",
+  "artist": "Kawai Sprite",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    }
+  },
+  "playData": {
+    "songVariations": [    ],
+    "difficulties": [
+      "easy",
+      "normal",
+      "hard"
+    ],
+    "characters": {
+      "player": "pico-blazin",
+      "girlfriend": "nene",
+      "opponent": "darnell-blazin",
+      "instrumental": "",
+      "altInstrumentals": [      ]
+    },
+    "stage": "phillyBlazin",
+    "noteStyle": "funkin",
+    "ratings": {
+      "easy": 3,
+      "normal": 4,
+      "hard": 5
+    },
+    "album": "volume3",
+    "previewStart": 0,
+    "previewEnd": 15000
+  },
+  "generatedBy": "Friday Night Funkin' - v0.4.1",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 180,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}
