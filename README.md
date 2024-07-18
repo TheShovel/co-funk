@@ -8,8 +8,6 @@ We are talking like custom events, modding support, cross platform (mobile suppo
 
 ### What it can't do
 Access your bank account<br>
-Make profit<br>
-Get uploaded to Google Play with an AD after every arrow is pressed
 
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin frameworks.<br>
