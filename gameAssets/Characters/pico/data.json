@@ -1,5 +1,4 @@
- 
-{
+ {
     "name":"Pico",
     "title":"The shooter",
 "animations":{
@@ -8,6 +7,8 @@
     "down":{"frames":"11"},
     "left":{"frames":"17"},
     "right":{"frames":"17"},
+    "reload":{"frames":"10"},
+    "shoot":{"frames":"9"},
     "seconds per frame":0.025
 },
 "offsets":{
@@ -15,6 +16,8 @@
     "up":{"x":-70,"y":40},
     "down":{"x":100,"y":-80},
     "right":{"x":-175,"y":-10},
-    "left":{"x":110,"y":0}
+    "left":{"x":110,"y":0},
+    "reload":{"x":-650,"y":150},
+    "shoot":{"x":-650,"y":150}
 },
 "healthColor":"#b3d353"}

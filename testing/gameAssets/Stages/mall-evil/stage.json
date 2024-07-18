@@ -1,8 +1,0 @@
-[
-    {"fileName":"evilBG.png","x":0,"y":0,"size":75,"z":0.4},
-    {"fileName":"evilTree.png","x":50,"y":-50,"size":90,"z":0.2},
-    {"fileName":"evilSnow.png","x":0,"y":-250,"size":75},
-    {"character":1},
-    {"character":2},
-    {"fileName":"gradient.png","x":0,"y":-175,"size":175}
-]

@@ -1,8 +1,0 @@
-[
-    {"fileName":"stageback.png","x":-25,"y":-150,"size":100,"z":0.1},
-    {"fileName":"stagefront.png","x":-25,"y":-300,"size":100},
-    {"character":3},
-    {"character":1},
-    {"character":2},
-    {"fileName":"stagecurtains.png","x":-25,"y":-50,"size":75,"inFront":true,"z":1}
-]

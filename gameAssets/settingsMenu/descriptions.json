@@ -13,7 +13,7 @@
     "Tries to compensate for frame drops",
     "Changes the visuals of the arrows",
     "Disables the splashes when you hit a sick note",
-    "Add a sounds every time you hit a note",
+    "Play a sound every time you hit a note",
     "Enters full screen every time you click the game window",
     "Disables character animation streaming",
     "Logs event data for debugging",
