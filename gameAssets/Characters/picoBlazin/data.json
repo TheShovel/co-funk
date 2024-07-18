@@ -1,0 +1,34 @@
+{   
+"name":"Pico",
+    "title":"The shooter",    
+"disableIdle":true,
+    "animations":{
+    "beforeUppercut":{"frames":"14"},
+    "blockHit":{"frames":"9"},
+    "dodge":{"frames":"5"},
+    "fakeOut":{"frames":"5"},
+    "hitHigh":{"frames":"5"},
+    "hitLow":{"frames":"6"},
+    "idle":{"frames":"14"},
+    "laughing":{"frames":"23"},
+    "punchHigh":{"frames":"5"},
+    "punchLow":{"frames":"5"},
+    "spin":{"frames":"3"},
+    "uppercut":{"frames":"22"},
+    "seconds per frame":0.04
+},
+"offsets":{
+    "beforeUppercut":{"x":0,"y":-90},
+    "blockHit":{"x":50,"y":30},
+    "dodge":{"x":0,"y":0},
+    "fakeOut":{"x":-50,"y":-15},
+    "hitHigh":{"x":110,"y":60},
+    "hitLow":{"x":125,"y":10},
+    "punchHigh":{"x":-150,"y":-10},
+    "punchLow":{"x":-150,"y":-50},
+    "spin":{"x":0,"y":-10},
+    "uppercut":{"x":-100,"y":125},
+    "laughing":{"x":0,"y":25}
+},
+"healthColor":"#b3d353"
+}

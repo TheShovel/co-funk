@@ -1,0 +1,8 @@
+{
+    "Enemy":"darnellBlazin",
+    "Player":"picoBlazin",
+    "Gf":"sprayCan",
+    "Stage":"phillyStreetsBlazin",
+    "Cutscene":true,
+    "endCutscene":true
+}

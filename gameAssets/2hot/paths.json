@@ -1,0 +1,9 @@
+{
+    "Enemy":"darnell",
+    "Player":"pico",
+    "Gf":"sprayCan",
+    "Stage":"phillyStreets",
+    "GfChart":"sprayCan",
+    "Cutscene":true,
+    "endCutscene":true
+}
