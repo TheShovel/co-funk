@@ -8,6 +8,7 @@ We are talking like custom events, modding support, cross platform (mobile suppo
 
 ### What it can't do
 Access your bank account<br>
+Leak your SSN<br>
 
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin frameworks.<br>
