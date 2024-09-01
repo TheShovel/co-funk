@@ -190,7 +190,7 @@ Contains the loading screens.
 ### bgart folder
 Contains all the background art that pops up in the menus.
 
-### modList.json
+### songList.json (in root directory)
 List with all the songs in freeplay.
 
 ### Weeks folder
