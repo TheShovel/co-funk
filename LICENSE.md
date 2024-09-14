@@ -1,6 +1,6 @@
-# co-funk
+# Co-Funk
 
-The co-funk source code is licensed under the MIT license: (https://opensource.org/license/mit)  
+The Co-Funk source code is licensed under the MIT license: (https://opensource.org/license/mit)  
 
 You can view the `funkin-assets` license here: (https://github.com/FunkinCrew/funkin.assets/blob/main/LICENSE.md)  
 
