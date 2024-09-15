@@ -8,8 +8,7 @@ We are talking like custom events, modding support, cross platform (mobile suppo
 
 ### What it can't do
 Access your bank account<br>
-Make profit<br>
-Get uploaded to Google Play with an AD after every arrow is pressed
+Leak your SSN<br>
 
 ### Why does this exist
 Because it's very small compared to other Friday Night Funkin frameworks.<br>
@@ -191,7 +190,7 @@ Contains the loading screens.
 ### bgart folder
 Contains all the background art that pops up in the menus.
 
-### modList.json
+### songList.json (in root directory)
 List with all the songs in freeplay.
 
 ### Weeks folder
