@@ -1,0 +1,7 @@
+{
+    "Enemy":"tankman",
+    "Player":"bf",
+    "Stage":"battlefield1",
+    "Gf":"gf-guns",
+    "Cutscene":true
+}

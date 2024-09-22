@@ -1,3 +1,4 @@
 {
-    "useShader":"Rain"
+  "useShader": "Rain",
+  "saturation": 70
 }
