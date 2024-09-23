@@ -1,21 +1,43 @@
 {
-  "timeFormat": "ms",
-  "artist": "Kawai Sprite",
+  "version": "2.2.4",
+  "songName": "Guns (Pico Mix)",
+  "artist": "tsuyunoshi (ft. Saruky)",
+  "charter": "Fabs + Spazkid",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {},
+    "vocals": {},
+    "altVocals": {}
+  },
   "playData": {
-    "album": "volume2",
-    "stage": "tankmanBattlefield",
-    "characters": {
-      "player": "bf",
-      "girlfriend": "gf-tankmen",
-      "opponent": "tankman"
-    },
     "songVariations": [],
     "difficulties": ["easy", "normal", "hard"],
-    "noteStyle": "funkin"
+    "characters": {
+      "player": "pico-playable",
+      "girlfriend": "nene",
+      "opponent": "tankman",
+      "instrumental": "pico",
+      "altInstrumentals": []
+    },
+    "stage": "tankmanBattlefield",
+    "noteStyle": "funkin",
+    "ratings": { "easy": 3, "normal": 5, "hard": 13 },
+    "album": "expansion2",
+    "previewStart": 0,
+    "previewEnd": 0
   },
-  "songName": "Guns",
-  "timeChanges": [{ "d": 4, "n": 4, "t": -1, "bt": [4, 4, 4, 4], "bpm": 185 }],
-  "generatedBy": "Chart Editor Import (FNF Legacy)",
-  "looped": false,
-  "version": "2.2.1"
+  "generatedBy": "Friday Night Funkin' - v0.5.0 (develop:96c151c:MODIFIED) PROTOTYPE",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 185,
+      "n": 4,
+      "d": 4,
+      "bt": [4, 4, 4, 4]
+    }
+  ]
 }

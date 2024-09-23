@@ -1,7 +1,6 @@
 {
-    "Enemy":"tankman",
-    "Player":"bf",
-    "Stage":"battlefield1",
-    "Gf":"gf-guns",
-    "Cutscene":true
+  "Enemy": "tankman",
+  "Player": "pico",
+  "Stage": "battlefield1",
+  "Gf": "nene"
 }

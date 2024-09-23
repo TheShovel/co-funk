@@ -1,6 +1,6 @@
 {
-    "Enemy":"kids",
-    "Player":"bf",
-    "Gf":"gf",
-    "Stage":"spooky"
+  "Enemy": "kids",
+  "Player": "pico",
+  "Gf": "nene",
+  "Stage": "spooky"
 }

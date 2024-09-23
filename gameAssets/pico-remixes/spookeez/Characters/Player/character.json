@@ -1,23 +1,8 @@
 {
-    "size":100,
-    "cameraX":-50,
-    "cameraY":50,
-    "x":100,
-    "y":-80,
-    "animations":{
-        "idle":{"frames":"12"},
-        "up":{"frames":"12"},
-        "down":{"frames":"12"},
-        "left":{"frames":"12"},
-        "right":{"frames":"12"},
-        "seconds per frame":0.025
-    },
-    "offsets":{
-        "idle":{"x":0,"y":0},
-        "up":{"x":25,"y":30},
-        "down":{"x":0,"y":-50},
-        "left":{"x":-50,"y":-5},
-        "right":{"x":100,"y":0}
-    },
-    "healthColor":"#31b0d1"
+  "flipDirections": true,
+  "size": 100,
+  "cameraX": -50,
+  "cameraY": 50,
+  "x": 100,
+  "y": -80
 }
