@@ -29,8 +29,6 @@ The easiest way to do this (that I found) is through VSCode (Visual Studio Code)
 ### Folder structure
 The folder structure is pretty easy to understand.<br>
 <ul>
-  <li>Mods</li>
-  <ul>
   <li>song-name
     <ul>
       <li>Characters
