@@ -40,7 +40,7 @@
       "e": "PlayAnimation",
       "v": {
         "force": true,
-        "anim": "augh",
+        "anim": "ugh",
         "target": "dad"
       }
     },
@@ -494,7 +494,7 @@
       "e": "PlayAnimation",
       "v": {
         "force": false,
-        "anim": "augh",
+        "anim": "ugh",
         "target": "dad"
       }
     },
