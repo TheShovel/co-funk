@@ -1,24 +1,28 @@
 {
-    "name":"Tankman",
-    "title":"The tank man",
-    "animations":{
-        "idle":{"frames":"14"},
-        "up":{"frames":"10"},
-        "down":{"frames":"10"},
-        "left":{"frames":"10"},
-        "right":{"frames":"8"},
-        "ugh":{"frames":"16"},
-        "hehPrettyGood":{"frames":"62"},
-        "seconds per frame":0.025
-    },
-    "offsets":{
-        "idle":{"x":0,"y":0},
-        "up":{"x":0,"y":55},
-        "down":{"x":0,"y":-100},
-        "right":{"x":-125,"y":-25},
-        "left":{"x":125,"y":-15},
-        "ugh":{"x":0,"y":-10},
-        "hehPrettyGood":{"x":-100,"y":15}
-    },
-    "healthColor":"#000000"
+  "name": "Tankman",
+  "title": "The tank man",
+  "animations": {
+    "idle": { "frames": "14" },
+    "up": { "frames": "10" },
+    "down": { "frames": "10" },
+    "left": { "frames": "10" },
+    "right": { "frames": "8" },
+    "ugh": { "frames": "16" },
+    "laugh": { "frames": "23" },
+    "beat it": { "frames": "16" },
+    "hehPrettyGood": { "frames": "62" },
+    "seconds per frame": 0.025
+  },
+  "offsets": {
+    "laugh": { "x": -5, "y": 15 },
+    "beat it": { "x": 95, "y": -15 },
+    "idle": { "x": 0, "y": 0 },
+    "up": { "x": 0, "y": 55 },
+    "down": { "x": 0, "y": -100 },
+    "right": { "x": -125, "y": -25 },
+    "left": { "x": 125, "y": -15 },
+    "ugh": { "x": 0, "y": -10 },
+    "hehPrettyGood": { "x": -100, "y": 15 }
+  },
+  "healthColor": "#000000"
 }
