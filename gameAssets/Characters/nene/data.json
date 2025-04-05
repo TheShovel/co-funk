@@ -1,0 +1,9 @@
+{
+  "animations": {
+    "idle": { "frames": "30" },
+    "seconds per frame": 0.025
+  },
+  "offsets": {
+    "idle": { "x": 0, "y": 0 }
+  }
+}
