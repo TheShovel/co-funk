@@ -468,4 +468,4 @@ The ``disableReload`` disables reloading of the stage and characters. This can b
 <br>
 <br>
 
-[![cantaloupe](https://img.youtube.com/vi/mYiBdMnIT88/0.jpg)](https://www.youtube.com/watch?v=mYiBdMnIT88)
+"GF's ass is thiiiiiiiiiiiiiiiiissssss big" - Phantom Arcade 2024
