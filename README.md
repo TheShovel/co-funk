@@ -17,16 +17,10 @@ It's lightweight and fast, making it run really well on lower-end devices. Also,
 While you read this, I would recommend looking at the example mods that I have ported in the "Mods" folder.
 ### Development environment
 To work on stuff locally, you need a local server that can be accessed by PenguinMod. This turns out to be tricky because of cors and ssl certificates and poo poo but don't worry. I gotchu  
-The easiest way to do this (that I found) is through VSCode (Visual Studio Code), with the Five Server plugin. Just open the "Mods" folder from the repo in VSCode, click on the little button in the right bottom corner, and put the link opened in the "path" variable in Co-Funk.  
-#### 1.Download the Plugin  
-![image](https://github.com/TheShovel/penguin-funk/assets/68913917/311aae9b-ffd2-469b-b6cf-cda26a77d380)  
-#### 2.Open the folder  
-![image](https://github.com/TheShovel/penguin-funk/assets/68913917/d260d589-55a4-4d6b-8980-3e9fa0b04304)  
-![image](https://github.com/TheShovel/penguin-funk/assets/68913917/01ef17be-a187-48b0-8f46-70e63ac3a42e)  
-#### 3.Run the server  
-![image](https://github.com/TheShovel/penguin-funk/assets/68913917/15f7fb75-5dc5-4093-b25b-b520d09cddd9)  
-#### 4.Set the variable  
-![image](https://github.com/TheShovel/penguin-funk/assets/68913917/ebb06a99-ef04-4f69-a80d-2ed6f3597f37)  
+#### 1.Run the script  
+Run start-server.sh  
+#### 2.Set the variable  
+Set the path global variable inside the project to the assets folder hosted on localhost:8000  
 ### Folder structure
 The folder structure is pretty easy to understand.<br>
 <ul>
