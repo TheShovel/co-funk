@@ -357,8 +357,6 @@ create_github_release() {
     # Create temporary description file
     local desc_file=$(mktemp)
     cat > "$desc_file" << EOF
-# $release_title
-
 ## What's Changed
 $commit_log
 
