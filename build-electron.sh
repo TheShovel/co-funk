@@ -333,12 +333,21 @@ create_github_release() {
         return 0
     fi
 
-    # Get release name from user
+    # Get tag name from user
     echo ""
-    read -p "Enter release name/version (e.g., v1.0.0): " release_name
-    if [ -z "$release_name" ]; then
-        print_error "Release name cannot be empty"
+    read -p "Enter tag name (e.g., v1.0.0): " tag_name
+    if [ -z "$tag_name" ]; then
+        print_error "Tag name cannot be empty"
         return 1
+    fi
+
+    # Get release title from user
+    echo ""
+    read -p "Enter release title (e.g., \"Co-Funk Version 1.0.0 - Major Update\"): " release_title
+    if [ -z "$release_title" ]; then
+        # Default to tag name if no title provided
+        release_title="$tag_name"
+        print_status "Using tag name as release title: $release_title"
     fi
 
     # Get recent commits for description
@@ -348,7 +357,7 @@ create_github_release() {
     # Create temporary description file
     local desc_file=$(mktemp)
     cat > "$desc_file" << EOF
-# Co-Funk Release $release_name
+# $release_title
 
 ## What's Changed
 $commit_log
@@ -405,11 +414,11 @@ EOF
     fi
 
     # Create release with assets
-    if gh release create "$release_name" "${assets[@]}" \
-        --title "$release_name" \
+    if gh release create "$tag_name" "${assets[@]}" \
+        --title "$release_title" \
         --notes-file "$desc_file"; then
         print_success "GitHub release created successfully!"
-        print_success "Release URL: $(gh release view "$release_name" --json url -q .url)"
+        print_success "Release URL: $(gh release view "$tag_name" --json url -q .url)"
     else
         print_error "Failed to create GitHub release"
         rm "$desc_file"
