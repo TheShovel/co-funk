@@ -33,6 +33,27 @@ print_error() {
     echo -e "${RED}[ERROR]${NC} $1"
 }
 
+# Function to show usage information
+show_usage() {
+    echo "Co-Funk Electron Build Script"
+    echo ""
+    echo "Usage:"
+    echo "  $0                 Build all packages (Linux ZIP, Windows ZIP, AppImage)"
+    echo "  $0 release         Create GitHub release with existing build files"
+    echo "  $0 help            Show this help message"
+    echo ""
+    echo "Examples:"
+    echo "  $0                 # Full build process"
+    echo "  $0 release         # Create GitHub release only"
+    echo ""
+    echo "Requirements:"
+    echo "  - curl, jq, unzip, zip (required)"
+    echo "  - appimagetool (optional, for AppImage)"
+    echo "  - magick (optional, for Windows .ico conversion)"
+    echo "  - gh (optional, for GitHub releases)"
+    exit 0
+}
+
 # Check if required commands are available
 check_dependencies() {
     print_status "Checking dependencies..."
@@ -458,8 +479,68 @@ cleanup() {
     fi
 }
 
+# Function to handle release-only mode
+release_only_mode() {
+    print_status "GitHub Release Mode - skipping build process"
+
+    # Check if build files exist
+    local missing_files=()
+
+    if [ ! -f "builds/cofunk-linux.zip" ]; then
+        missing_files+=("builds/cofunk-linux.zip")
+    fi
+    if [ ! -f "builds/cofunk-windows.zip" ]; then
+        missing_files+=("builds/cofunk-windows.zip")
+    fi
+    if [ ! -f "builds/cofunk-linux.AppImage" ]; then
+        missing_files+=("builds/cofunk-linux.AppImage")
+    fi
+
+    if [ ${#missing_files[@]} -ne 0 ]; then
+        print_warning "Some build files are missing:"
+        for file in "${missing_files[@]}"; do
+            print_warning "  - $file"
+        done
+        print_warning "Consider running the full build first: ./build-electron.sh"
+        echo ""
+    fi
+
+    # Show available files
+    print_status "Available build files:"
+    if [ -f "builds/cofunk-linux.zip" ]; then
+        print_success "  ✓ builds/cofunk-linux.zip"
+    fi
+    if [ -f "builds/cofunk-windows.zip" ]; then
+        print_success "  ✓ builds/cofunk-windows.zip"
+    fi
+    if [ -f "builds/cofunk-linux.AppImage" ]; then
+        print_success "  ✓ builds/cofunk-linux.AppImage"
+    fi
+
+    # Create GitHub release
+    create_github_release
+}
+
 # Main execution
 main() {
+    # Check for command line arguments
+    case "$1" in
+        "release")
+            release_only_mode
+            exit 0
+            ;;
+        "help"|"--help"|"-h")
+            show_usage
+            ;;
+        "")
+            # Continue with normal build
+            ;;
+        *)
+            print_error "Unknown argument: $1"
+            show_usage
+            ;;
+    esac
+
     print_status "Starting Co-Funk Electron build process..."
 
     # Check if we're in the right directory
