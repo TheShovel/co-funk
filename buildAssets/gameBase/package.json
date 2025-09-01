@@ -1,0 +1,5 @@
+{
+    "name": "penguinfunk",
+    "main": "electron-main.js",
+    "version": "2.9.0"
+}
